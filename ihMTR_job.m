@@ -12,7 +12,7 @@ matlabbatch{1}.spm.util.imcalc.input = {
                                         };
 matlabbatch{1}.spm.util.imcalc.output = 'ihMTR_spm';
 matlabbatch{1}.spm.util.imcalc.outdir = {'/data/pt_np-vaculciakova/ihMT/Leipzig_invivo_ihMT_Dec_2020/08950.3f_20201202_070128.PRISMA/5K_results/ihmt/avg_img'};
-matlabbatch{1}.spm.util.imcalc.expression = '(i1+i2-i3-i4)./(2*i5)';
+matlabbatch{1}.spm.util.imcalc.expression = '(i1+i2-i3-i4)./(i5)';
 matlabbatch{1}.spm.util.imcalc.var = struct('name', {}, 'value', {});
 matlabbatch{1}.spm.util.imcalc.options.dmtx = 0;
 matlabbatch{1}.spm.util.imcalc.options.mask = 0;
